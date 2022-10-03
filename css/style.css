@@ -1,0 +1,13 @@
+header {
+  background: rgb(203, 203, 233);
+}
+
+.titulo {
+  font-family: sans-serif;
+  color: rgb(6, 20, 147);
+}
+
+.subtitulo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(93, 10, 170);
+}
