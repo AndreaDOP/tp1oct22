@@ -54,14 +54,15 @@ a {
 .header--centro {
   display: flex;
   align-items: center;
+  margin-right: ;
 }
 .nav--item {
   display: flex;
-  align-items: center;
+  align-content: lex-start;
 
   font-family: sans-serif;
   font-size: 18px;
-  margin: 8px;
+  margin: 10px;
   padding: 10px;
   border-radius: 15px;
 
@@ -69,7 +70,7 @@ a {
   background-color: rgba(199, 146, 146, 0.863);
 }
 .nav--item > a {
-  margin-left: 5px;
+  align-content: center;
 }
 .section {
   display: flex;

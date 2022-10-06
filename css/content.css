@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-}
-body {
   margin: 0;
   padding: 0;
 }
@@ -10,8 +8,6 @@ a {
   color: white;
   margin-top: 100;
 }
-
-/*FALTA PADDING ACORDE, LETRAS GRIS(INACTIVO), HOVER NEGRO*/
 
 .header {
   display: flex;
@@ -70,11 +66,7 @@ a {
 .nav--item > a {
   margin-left: 5px;
 }
-.section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 
-  height: 160vh;
-  width: 100%;
+.celu {
+  background-image: url("../asset/play-video.png");
 }

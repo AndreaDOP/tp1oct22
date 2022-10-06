@@ -71,3 +71,7 @@ a {
 .nav--item > a {
   margin-left: 5px;
 }
+
+.menu {
+  background-image: url("../asset/img01.jpg");
+}
