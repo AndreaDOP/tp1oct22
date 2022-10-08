@@ -1,7 +1,12 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 22px;
 }
 
 a {
@@ -13,65 +18,44 @@ a {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 25%;
 
   height: 60px;
   border-bottom: 0.1px solid black;
-  background-color: red;
+  background: red;
   color: white;
 }
-.header--izq {
+
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  font-family: sans-serif;
-  font-size: 18px;
-
-  margin-left: 5%;
+  margin-left: 3%;
 }
-.header--buscar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  margin: 10px;
-  padding: 20px;
-  border-radius: 5px;
-  height: 22px;
-
-  color: gray;
-  background-color: rgba(255, 255, 255, 0.863);
-}
-.header--buscar > input {
+.input {
   outline: none;
   background: none;
   border: none;
-
-  padding-left: 5px;
+  padding-left: 15px;
 }
 
-.header--centro {
+.navbar {
   display: flex;
-  align-items: center;
-  margin-right: ;
+  justify-content: space-evenly;
+  margin-left: 240px;
 }
+
 .nav--item {
   display: flex;
-  align-content: lex-start;
+  align-items: center;
 
-  font-family: sans-serif;
-  font-size: 18px;
-  margin: 10px;
   padding: 10px;
   border-radius: 15px;
+  background: rgb(222, 157, 157);
+  margin: 3px;
+}
 
-  color: white;
-  background-color: rgba(199, 146, 146, 0.863);
-}
-.nav--item > a {
-  align-content: center;
-}
+/* Aqui comienza main */
 .section {
   display: flex;
   flex-direction: column;
@@ -86,20 +70,17 @@ a {
   justify-content: center;
   align-items: center;
 
-  height: 30%;
+  height: 20%;
   width: 100%;
   background-color: black;
   color: white;
 }
 
 .parrafo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  width: 60%;
+  margin: 10px 30px;
+  justify-items: center;
 }
+
 .section--rojo {
   display: flex;
   flex-direction: column;
